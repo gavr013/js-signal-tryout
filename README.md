@@ -16,3 +16,7 @@ Start any http server to serve static from this directory.
 * [Live Preview VSCode extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
 * Python `python -m http.server`
 * Node `static-server`
+
+## License
+
+[Unlicense](UNLICENSE.txt)
