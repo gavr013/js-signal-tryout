@@ -1,4 +1,3 @@
-
 /**
  * @template T
  * @param {T} deaultValue
@@ -8,7 +7,6 @@ export function createSignal(deaultValue) {
     /**
      * @type {T}
      */
-
     let value = deaultValue
     let emitter = new EventTarget()
 
@@ -18,7 +16,6 @@ export function createSignal(deaultValue) {
             return value
         },
         /**
-         * 
          * @param {T} newValue 
          */
         (newValue) => {
@@ -57,6 +54,7 @@ export function computed(callback) {
  * @callback EffectCallback
  * @return {void}
  */
+
 /**
  * 
  * @param {EffectCallback} callback 
